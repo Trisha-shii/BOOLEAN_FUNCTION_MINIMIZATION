@@ -1,4 +1,4 @@
-# BOOLEAN_FUNCTION_MINIMIZATION
+# BOOLEAN_FUNCTION_MINIMIZATION #
 
 **AIM:**
 
@@ -12,11 +12,8 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
 Hardware – PCs, Cyclone II , USB flasher
 
-**Software – Quartus prime**
+**Software: – Quartus prime**
 
-**Theory**
-
-**Logic Diagram**
 
 **Procedure**
 
@@ -35,18 +32,44 @@ Hardware – PCs, Cyclone II , USB flasher
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:*/
+Developed by: Trisha Priyadarshni Parida
+
+RegisterNumber: 212224230293
+
+*/
+
+```i)
+module funct1(a,b,c,d,f1);
+input a,b,c,d;
+output f1;
+assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
+endmodule
+
+ii)
+module funct2(w,x,y,z,f2);
+input w,x,y,z;
+output f2;
+assign f2=((~y & z)|( w & y )|(x & y));
+endmodule
+```
 
 
-**RTL realization**
 
-**Output:**
+**RTL:**
 
-**RTL**
+<img width="614" alt="EXP 2 DE RTL" src="https://github.com/user-attachments/assets/8956e3c0-ca9e-4ed7-aa0c-98a994885539" />
 
-**Timing Diagram**
+<img width="638" alt="EXP 2 DE FUNCT 2 RTL" src="https://github.com/user-attachments/assets/8da81774-f3c5-4706-bffc-0cb178f46beb" />
+
+
+**Timing Diagram:**
+
+<img width="960" alt="EXP 2 DE WAVEFORM" src="https://github.com/user-attachments/assets/6f542db4-eeea-4149-8ec6-93212f1713e1" />
+
+<img width="958" alt="EXP 2 DE FUNCT 2 WF" src="https://github.com/user-attachments/assets/949f12b4-9fcf-4a71-9826-1fe7a0b7a7ad" />
+
 
 **Result:**
 
-Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
+Thus the given logic functions are implemented & their operations are verified using Verilog programming.
 
