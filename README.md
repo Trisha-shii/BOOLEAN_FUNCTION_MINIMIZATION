@@ -38,44 +38,9 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **TRUTH TABLE**
 
-i)	F1
-A	B	C	D	F1
-0	0	0	0	1
-0	0	0	1	0
-0	0	1	0	1
-0	0	1	1	0
-0	1	0	0	0
-0	1	0	1	1
-0	1	1	0	0
-0	1	1	1	1
-1	0	0	0	1
-1	0	0	1	0
-1	0	1	0	1
-1	0	1	1	0
-1	1	0	0	1
-1	1	0	1	1
-1	1	1	0	0
-1	1	1	1	0
+![image](https://github.com/user-attachments/assets/6542c99b-7818-4a63-aec5-a7195065e637)
 
-ii)	F2
-W	X	Y	Z	F2
-0	0	0	0	0
-0	0	0	1	1
-0	0	1	0	0
-0	0	1	1	0
-0	1	0	0	0
-0	1	0	1	1
-0	1	1	0	1
-0	1	1	1	1
-1	0	0	0	0
-1	0	0	1	1
-1	0	1	0	1
-1	0	1	1	1
-1	1	0	0	0
-1	1	0	1	1
-1	1	1	0	1
-1	1	1	1	1
-
+![image](https://github.com/user-attachments/assets/21fe727f-048e-4c62-8d3a-3aa7e11d6c57)
 
 
 **Program:**
