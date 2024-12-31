@@ -27,6 +27,56 @@ Hardware – PCs, Cyclone II , USB flasher
 
 5.	For different input combinations generate the timing diagram.
 
+**BOOLEAN MINIMIZATION**
+
+
+![WhatsApp Image 2024-12-21 at 8 56 17 AM](https://github.com/user-attachments/assets/9f69bad2-a30c-48de-bf3d-d452d2116997)
+
+
+![WhatsApp Image 2024-12-21 at 8 56 30 AM](https://github.com/user-attachments/assets/38792f90-773a-4165-91c1-b4cf03b8b23f)
+
+
+**TRUTH TABLE**
+
+i)	F1
+A	B	C	D	F1
+0	0	0	0	1
+0	0	0	1	0
+0	0	1	0	1
+0	0	1	1	0
+0	1	0	0	0
+0	1	0	1	1
+0	1	1	0	0
+0	1	1	1	1
+1	0	0	0	1
+1	0	0	1	0
+1	0	1	0	1
+1	0	1	1	0
+1	1	0	0	1
+1	1	0	1	1
+1	1	1	0	0
+1	1	1	1	0
+
+ii)	F2
+W	X	Y	Z	F2
+0	0	0	0	0
+0	0	0	1	1
+0	0	1	0	0
+0	0	1	1	0
+0	1	0	0	0
+0	1	0	1	1
+0	1	1	0	1
+0	1	1	1	1
+1	0	0	0	0
+1	0	0	1	1
+1	0	1	0	1
+1	0	1	1	1
+1	1	0	0	0
+1	1	0	1	1
+1	1	1	0	1
+1	1	1	1	1
+
+
 
 **Program:**
 
