@@ -72,14 +72,22 @@ endmodule
 
 **RTL:**
 
+*F1*
+
 <img width="614" alt="EXP 2 DE RTL" src="https://github.com/user-attachments/assets/8956e3c0-ca9e-4ed7-aa0c-98a994885539" />
+
+*F2*
 
 <img width="638" alt="EXP 2 DE FUNCT 2 RTL" src="https://github.com/user-attachments/assets/8da81774-f3c5-4706-bffc-0cb178f46beb" />
 
 
 **Timing Diagram:**
 
+*F1*
+
 <img width="960" alt="EXP 2 DE WAVEFORM" src="https://github.com/user-attachments/assets/6f542db4-eeea-4149-8ec6-93212f1713e1" />
+
+*F2*
 
 <img width="958" alt="EXP 2 DE FUNCT 2 WF" src="https://github.com/user-attachments/assets/949f12b4-9fcf-4a71-9826-1fe7a0b7a7ad" />
 
